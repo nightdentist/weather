@@ -1,7 +1,7 @@
 import requests
 
 url_template = 'https://wttr.in/{}?m?M?n?qTqu&lang=ru'
-url = url_template.format('london').format('cherepovec')
+url = url_template.format('london')
 response = requests.get(url)
 response.raise_for_status()
 print(response.text)
