@@ -1,7 +1,7 @@
 import requests
 
 
-payload = {'?m': '', '?M': '', '?n': '', '?q': '', 'Tqu&lang=': 'ru'}
+payload = {'m': '', 'M': '', 'n': '', 'q': '', 'Tqu&lang=': 'ru'}
 url_template = ('https://wttr.in/{}')
 cities = 'london', 'cherepovec', 'sheremetievo'
 
